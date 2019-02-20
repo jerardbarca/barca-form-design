@@ -4,8 +4,7 @@
 	<title></title>	
 </head>
 <body>
-	<form action="index.php" method="get" name="eventregistration" >
-
+	<form action="event.php" type="stylesheet" method="POST">
 <fieldset>
 <fieldset>
 		<center><h1> "MOBILE GAMES TOURNAMENT REGISTRATION"</h1> </center>
@@ -16,17 +15,14 @@
 </br>
 	<label>Name:</label>
 	<input type="text" name="intusername" placeholder="Firstname">
-	<input type="text" name="intusername" placeholder="Lastname">
+	<input type="text" name="intusername2" placeholder="Lastname">
 </br>
-	<label>Company:</label>
-	<input type="text" name="incompany">
+	<label>Player Nickname:</label>
+	<input type="text" name="intNickname" placeholder="Nickname">
 </br>
 	<label>Email:</label> 
 	<input type="text" name="intEmail" placeholder="username@email.com">
-</br> 
-	<label>Phone:</label> 
-	<input type="number" min=00 name="intAreacode" placeholder="Areacode">
-	<input type="number" name="intNumber" placeholder="Phone number">
+
 </br>
 	<label>Games:</label>
 	<select name="Option" placeholder="Choose Option"
@@ -36,7 +32,14 @@
 	<option value="Pubg Mobile">Pubg Mobile</option>
 	<option value="Rules of Survival">Rules Of Survival</option>
 	<option value="Neri Goodvival">Neri Goodvival</option>	</select>
-	
+</br>
+
+
+	<label>Phone:</label> 
+	<input class="Neri" name="areacode" type="number" min="00" placeholder="+63">
+	<input type="number" name="intNumber" placeholder="Phone number">
+
+
 </br>
 	<p> Are you existing customer ?</p>
 	
@@ -44,48 +47,14 @@
 	Yes
 	<input type="radio" name="Choice" value="No">
 	No
+
+</br>
 	<input type="submit" value="submit">
 
 </div>
 
-
-
-
-
-
 </fieldset> 
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	</form>
-
-
-
-
-
+</form>
 </body>
-
-
-
-
-
-
 
  </html>
