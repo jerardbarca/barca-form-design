@@ -1,0 +1,3 @@
+SELECT `firstname`, `lastname`,`age` FROM `tbl_employees2` WHERE 
+
+

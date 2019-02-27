@@ -1,0 +1,22 @@
+INSERT INTO `tbl_employees2`(`firstname`, `lastname`, `title`, `age`, `salary`, `date_time_created`, `id`) VALUES(  'Jonie' , 'Weber' , 'Secretary' , 28 , '19500.00' ,Now(), NULL);
+
+INSERT INTO `tbl_employees2`(`firstname` , `lastname` , `title` , `age` ,`salary`, `date_time_created`, `id` ) 
+VALUES ( 'Potsy' , 'Weber' , 'Programmer' , 32 , '45300.00' , Now() , NULL);
+
+INSERT INTO `tbl_employees2` (`firstname` , `lastname` , `title` , `age`, `salary`, `date_time_created` , `id` )
+VALUES ( 'Dirk' , 'Smith' , 'Programmmer II', 45, '75020.00' , Now(), NULL);
+
+INSERT INTO `tbl_employees2` ( `firstname`, `lastname` , `title` , `age` , `salary` , `date_time_created`, `id` )
+VALUES ( 'Rick' , ' Delgado' , 'Graphic_Designer' , 36, '3585.75' , Now(), NULL);
+
+INSERT INTO `tbl_employees2` ( `firstname` , `lastname` , `title`, `age` , `salary`, `date_time_created` ,`id` )
+VALUES ( 'Gabriel' , 'Aves' , 'Graphic_Designer II' , 35, '45786.00' , Now(), NULL );
+
+INSERT INTO `tbl_employees2` (`firstname` , `lastname` , `title`, `age` , `salary` , `date_time_created`, `id` )
+VALUES ( 'Rico' , 'Neri' , 'President' , 50, '1585900.00' , Now(), NULL);
+
+INSERT INTO `tbl_employees2` ( `firstname` , `lastname` , `title`, `age` , `salary`, `date_time_created` ,`id` )
+VALUES ( 'Ivan', 'Nocera' , 'President_Assistant' , 26, '500689.89' , Now(), NULL);
+
+INSERT INTO `tbl_employees2` ( `firstname` , `lastname` , `title`, `age` , `salary`, `date_time_created` ,`id` )
+VALUES ( 'Juan' , 'Yiu', 'Investore' , 48, '16000.00', Now(), Null);
