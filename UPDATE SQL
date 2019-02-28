@@ -1,0 +1,26 @@
+UPDATE `tbl_employees2` SELECT `lastname` = 'Williams' WHERE `id` = 1;
+
+
+UPDATE `tbl_employees2` SELECT `title` = 'Administrative Assistant' WHERE `title` = 'Secretary';
+ 
+UPDATE `tbl_employees2` SELECT `salary` = salary+3500 WHERE `salary` < 30000;
+
+UPDATE `tbl_employees2` SELECT `salary`= salary+4500 WHERE `salary` > 33500;
+
+UPDATE `tbl_employees2` SELECT `title`=  'Programmer III'  WHERE `title` = 'Programmer II';
+
+UPDATE `tbl_employees2` SELECT `title`= 'Programmer II' WHERE `title` =' Programmer';
+
+
+// 5 random update // 
+
+
+UPDATE `tbl_employees2` SELECT `title` = 'Graphic Designer II ' WHERE `title` = 'Graphic_Designer';
+
+UPDATE `tbl_employees2` SELECT `title` = 'Graphic Designer III' WHERE `title` = 'Graphic_Designer II' ;
+
+UPDATE `tbl_employees2` SELECT `title` = 'President Assistant ' WHERE `title` = 'President_Assistant' ;
+
+UPDATE `tbl_empployees2` SELECT `salary` =7086 WHERE `salary` 7086.75 ;
+
+UPDATE `tbl_employees2` SELECT `title` = 'Graphic Organizer' WHERE `title` = 'Investore' ;
