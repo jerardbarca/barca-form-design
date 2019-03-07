@@ -1,4 +1,4 @@
-input[type=text], select {
+	input[type=text], select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -10,7 +10,7 @@ input[type=text], select {
 
 input[type=submit] {
   width: 50%;
-  background-color: black;
+  background-color: green;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -20,7 +20,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: orange;
 
 }
 
@@ -32,15 +32,25 @@ div {
 }
 .Neri {
 
-    width: 50px;
+   width: 60px;
+    padding: 5px;
 
 
+  }
+.number {
+
+  padding: 5px;
+}
+
+.Phone {
+  font-style: 28;
+}
 
 }
 h1{
-  background-color: Black;
-  color:White;
-
+  background-color: black;
+  color:black;
+  font-family: cursive;
 
 }
 
@@ -48,6 +58,8 @@ html {
 
   background-color: black;
   position: center;
+  width: 800px;
+  height: 500px;
 
 }
 label {
